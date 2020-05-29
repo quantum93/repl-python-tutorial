@@ -118,4 +118,18 @@ for key in x:
 x[0] = "Jay"
 print(x)  
 
+# 리스트에 존재하는 동일한 앨리먼트의 갯수를 세는 코드
+# 여기서 빈 딕셔너리를 만들어서 갯수와 과일이름을 key:value pair로 저장해서 결과를 정리...
+fruit = ["apple", "apple", "orange", "orange", "peach", "peach", "banana", "banana", "banana", "blueberry", "blueberry", "blueberry"]
+
+myDic = {}
+
+for f in fruit:
+  if f in myDic:
+    myDic[f] = myDic[f] + 1
+  else:
+    myDic[f] = 1
+
+print(myDic)
+
 
