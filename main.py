@@ -55,3 +55,21 @@ def sayHello(name, age):
 sayHello("Alex", 9)
 sayHello("John", 18)
 sayHello("Paul,", 45)
+
+for i in range(3):
+  print(i)
+  print("This is for loop")
+  print("It is pretty simple")
+
+i = 0
+while True:
+  print(i)
+  print("This is while loop with break and continue")
+  print("It is pretty simple")
+  i = i + 1
+
+  if i > 3:
+    break
+
+
+
